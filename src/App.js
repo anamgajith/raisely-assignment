@@ -16,7 +16,7 @@ function App() {
           </h2>
         </Card>
       ) : (
-        <Card isForm={true}>
+        <Card>
           <h2>JOIN US</h2>
           <Form setSuccess={setSuccess} />
         </Card>
